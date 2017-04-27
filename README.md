@@ -1,6 +1,6 @@
 # npmdoc-node-gitlab
 
-#### api documentation for  [node-gitlab (v1.6.0)](https://github.com/repo-utils/gitlab)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-gitlab.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-gitlab) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-gitlab.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-gitlab)
+#### basic api documentation for  [node-gitlab (v1.6.0)](https://github.com/repo-utils/gitlab)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-gitlab.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-gitlab) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-gitlab.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-gitlab)
 
 #### Gitlab API nodejs client.
 
@@ -118,7 +118,8 @@
         "test-cov": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -r co-mocha -t 40000 test/*.test.js",
         "test-travis": "node --harmony node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly -- -r co-mocha -t 40000 test/*.test.js"
     },
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "bin": {}
 }
 ```
 
